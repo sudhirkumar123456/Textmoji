@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: #fff;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#main>h1{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+}
+#main>h1 span{
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main>h1 span i{
+    font-weight: 500;
+    font-size: 30px;
+    transition: 0.3s ease;
+}
+#main>#endec-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1C1C1C;
+    padding: 8px;
+    width: 25%;
+    margin: 25px 0;
+    border-radius: 8px;
+}
+#main>#endec-div h3{
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 12px 10px;
+    transition: 0.2s ease;
+    
+}
+
+#enc-btn{
+    background-color: #2E2E2E;
+}
+#endec-div h3 span{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+#encryption{
+    width: 45%;   
+    display: flex;
+    align-items: flex-start;    
+    justify-content: space-around;
+    flex-direction: column;   
+}
+#encryption h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #6e6e6e;
+    margin-bottom: 13px;
+}
+#encryption textarea{
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #343434;
+    border-radius: 8px;
+    font-size: 17px;
+    outline: none;
+    margin-bottom: 20px;
+    background-color: #1C1C1C;
+}
+#encryption input{
+    width: 100%;    
+    padding: 10px;
+    border: 1px solid #343434;
+    border-radius: 8px;
+    font-size: 17px;
+    outline: none;
+    margin-bottom: 20px;
+    background-color: #1C1C1C;
+}
+#encryption button{
+    width: 100%;    
+    padding: 10px;
+    border: 1px solid #343434;
+    border-radius: 8px;
+    font-size: 17px;
+    outline: none;
+    margin-bottom: 20px;
+    background-color: #1C1C1C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+#decryption{
+    width: 45%;   
+    display: flex;
+    align-items: flex-start;    
+    justify-content: space-around;
+    flex-direction: column;
+    display: none;
+}
+#decryption h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #6e6e6e;
+    margin-bottom: 13px;
+}
+#decryption textarea{
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #343434;
+    border-radius: 8px;
+    font-size: 17px;
+    outline: none;
+    margin-bottom: 20px;
+    background-color: #1C1C1C;
+}
+#decryption input{
+    width: 100%;    
+    padding: 10px;
+    border: 1px solid #343434;
+    border-radius: 8px;
+    font-size: 17px;
+    outline: none;
+    margin-bottom: 20px;
+    background-color: #1C1C1C;
+}
+#decryption button{
+    width: 100%;    
+    padding: 10px;
+    border: 1px solid #343434;
+    border-radius: 8px;
+    font-size: 17px;
+    outline: none;
+    margin-bottom: 20px;
+    background-color: #1C1C1C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+#result{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #1C1C1C;
+    border: 1px solid #343434;
+    width: 45%;
+    display: none;
+    margin-top: 20px;
+}
